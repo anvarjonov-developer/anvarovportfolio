@@ -36,6 +36,15 @@ function Contact(){
             <a href="https://instagram.com/cn.nvrv">cn.cnrv</a>
           </div>
         </div>
+        <div className="card reveal active">
+          <div className="contact-icon">
+            <i className="fab fa-github"></i>
+          </div>
+          <div className="info">
+            <h3>Github</h3>
+            <a href="https://github.com/anvarjonov-developer">anvarov</a>
+          </div>
+        </div>
 
       </div>
     </div>
