@@ -61,3 +61,10 @@ span, a{
     font-size: 25px;
     font-weight: bold;
 }
+
+.contact-icon:hover{
+    transition: 0.5s;
+    
+    
+    transform: translateY(-10px); 
+}
