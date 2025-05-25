@@ -1,0 +1,63 @@
+.bg-black-gradient{
+    background: black;
+}
+
+.sidebar{
+    animation: sidebar 1s ease;
+}
+
+
+
+@keyframes sidebar{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.card{
+    background:transparent;
+    width: 240px;
+    border: 1px solid rgb(65, 65, 176);
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.contact-icon{
+    font-size: 50px;
+    color: rgb(65, 65, 176);
+}
+
+h3{
+    font-size: 22px;
+    color: rgb(65, 65, 176);
+    
+}
+span, a{
+    font-size: 18px;
+    color: gray;
+}
+
+
+.footer{
+    padding: 40px;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-h, h4{
+    color: white;
+}
+.footer-h{
+    font-size: 25px;
+    font-weight: bold;
+}
